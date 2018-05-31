@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="fsffap\002_why_use_fs\001_fs_vs_cs.fsx" />
+    <Content Include="fsffap\002_why_use_fs\002_4_key_concepts.fsx" />
+    <None Include="fsffap\001_syntax\fsffap_001_syntax.fsx" />
+    <None Include="fsffap\002_why_use_fs\003_conciseness.fsx" />
+    <None Include="fsffap\002_why_use_fs\004_boilerplate.fsx" />
+    <None Include="fsffap\002_why_use_fs\005_building_blocks.fsx" />
+    <None Include="fsffap\002_why_use_fs\006_pattern_matching.fsx" />
+    <None Include="fsffap\002_why_use_fs\007_convenience.fsx" />
+    <None Include="fsffap\002_why_use_fs\008_funcs_as_interfaces.fsx" />
+    <None Include="fsffap\002_why_use_fs\009_partial_application.fsx" />
+    <Compile Include="CardGame.fs" />
+    <Compile Include="OptionalValues.fs" />
+    <Compile Include="PaymentMethod_algebraic_types.fs" />
+    <Compile Include="Cart.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+</Project>
