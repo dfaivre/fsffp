@@ -58,3 +58,4 @@ let customerX = {CustomerAccountId = 1}
 // error!
 // customerX = customerX
 customerX.CustomerAccountId = customerX.CustomerAccountId
+
