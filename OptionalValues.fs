@@ -1,10 +1,11 @@
-namespace Foo
+// namespace Foo
 
-module OptionalValues =
-    type Person = {
-        FirstName: string
-        MiddleInitial: string option
-        LastName: string
-    }
+module OptionalValues
 
-    type OrderLineQty = OrderLineQty of int
+type Person = {
+    FirstName: string
+    MiddleInitial: string option
+    LastName: string
+}
+
+type OrderLineQty = OrderLineQty of int
